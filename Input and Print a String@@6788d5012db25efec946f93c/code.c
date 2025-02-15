@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    char a;
-    scanf("%.4c",&a);
-    printf("You entered: %.4c",a);
+    char a[100];
+    scanf("%c",&a);
+    printf("You entered: %c",a);
     return 0;
 }
