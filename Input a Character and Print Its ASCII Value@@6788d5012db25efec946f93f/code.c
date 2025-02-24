@@ -4,11 +4,11 @@ int main() {
     char character;
 
     // Take input from the user
-    printf("Enter a character: ");
+    printf(": ");
     scanf("%c", &character);
 
     // Print the ASCII value
-    printf("The ASCII value of '%c' is %d\n", character, character);
+    printf("ASCII Value :'%c' %d\n", character, character);
 
     return 0;
 }
