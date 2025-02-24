@@ -1,5 +1,5 @@
 #include<stdio.h>
-inyt main()
+int main()
 {
     float x;
     scanf("%.4f",&x);
