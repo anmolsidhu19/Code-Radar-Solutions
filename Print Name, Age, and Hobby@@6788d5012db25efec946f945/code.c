@@ -8,5 +8,5 @@ int main()
     char hobby[20];
     scanf("%c",&hobby);
     printf("Name: %c\nAge: %d\nHobby:%c",name ,age, hobby);
-    return 0:   
+    return 0;  
 }
