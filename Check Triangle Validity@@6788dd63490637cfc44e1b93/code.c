@@ -8,4 +8,5 @@ int main(){
     else{
         printf("Invalide");
     }
+    return 0;
 }
