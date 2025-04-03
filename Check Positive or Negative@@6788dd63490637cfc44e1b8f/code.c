@@ -6,11 +6,11 @@ int main()
     if (x>0){
         printf("Even");
     }
-    elif (x<0){
+    else if (x<0){
         printf("Odd");
     }
     else{
-        printf("Zero")
+        printf("Zero");
     }
     return 0;
 
