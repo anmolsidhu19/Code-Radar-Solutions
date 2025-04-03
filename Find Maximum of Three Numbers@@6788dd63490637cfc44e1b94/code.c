@@ -2,6 +2,7 @@
 int main()
 {
     int x,y,z;
+    int max;
     scanf("%d %d %d",&x,&y,&z);
     if(x>=y&&x>=z){
      max = x;}
