@@ -6,7 +6,7 @@ int main()
     if (x>0){
         printf("Even");
     }
-    else if (x<0){
+    elif (x<0){
         printf("Odd");
     }
     else{
