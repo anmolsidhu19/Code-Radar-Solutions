@@ -5,4 +5,7 @@ int main(){
     if((x+y>z)&&(y+z>x)&&(x+z>y)){
         printf("Valid");
     }
+    else{
+        printf("Invalide");
+    }
 }
