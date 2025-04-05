@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char x;
+    char ch;
     scanf("%c",&x);
 if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
         // Convert to lowercase for easier comparison
