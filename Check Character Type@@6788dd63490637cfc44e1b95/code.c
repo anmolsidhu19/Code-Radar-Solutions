@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     char ch;
-    scanf("%c",&x);
+    scanf("%c",&ch);
 if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
         // Convert to lowercase for easier comparison
         char lower = (ch >= 'A' && ch <= 'Z') ? ch + 32 : ch;
