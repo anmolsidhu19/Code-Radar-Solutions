@@ -7,11 +7,11 @@ int main()
         printf("A");
     }
     else if(x>=80);
-    {printf("B")}
+    {printf("B")};
     else if(x>=70);
-    {printf("C")}
+    {printf("C")};
     else if(x>=60);
-    {printf("D")}
+    {printf("D")};
 else {
     {printf("F")};
 }
