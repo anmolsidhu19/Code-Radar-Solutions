@@ -3,10 +3,10 @@ int main()
 {
     int x,y,z;
     scanf("%d %d %d",&x,&y,&z);
-    if(x=|y && x=|z && y=|z){
+    if(x!=y && x!=z && y!=z){
         printf("Scalene");
     }
-    else if((x=y||y=z||x=z)&&(x=|y=|z)){
+    else if((x=y||y=z||x=z)&&(x!=y!=z)){
         printf("Isosceles");
     }
     else{
