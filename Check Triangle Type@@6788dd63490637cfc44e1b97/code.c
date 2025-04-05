@@ -6,7 +6,7 @@ int main()
     if(x!=y && x!=z && y!=z){
         printf("Scalene");
     }
-    else if(((x=y)||(y=z)||(x=z))){
+    else if(((x=y)||(y=z)||(x=z))&(x!=y!=z)){
         printf("Isosceles");
     }
     else{
