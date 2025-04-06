@@ -1,18 +1,18 @@
- #include<stdio.h>
- int main()
- {
+#include <stdio.h>
+
+int main() {
     int x;
-    scanf("%d",&x);
-    if(x==1,3,5,7,8,10,12){
+    scanf("%d", &x);
+
+    if (x == 1 || x == 3 || x == 5 || x == 7 || x == 8 || x == 10 || x == 12) {
         printf("31");
-    }
-    else if(x==4,6,9,11){
+    } else if (x == 4 || x == 6 || x == 9 || x == 11) {
         printf("30");
-    }
-    else if(x==2){
+    } else if (x == 2) {
         printf("28");
+    } else {
+        printf("Invalid month");
     }
-    else{printf("Invalid month");}
+
     return 0;
- 
- }
+}
